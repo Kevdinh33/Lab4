@@ -15,6 +15,9 @@ $totalCorrect = 0;
 
 if ($answer1 == "B") {
   $totalCorrect++;
+  echo "1. What is beta?<br/>";
+  echo "You Answered Correctly.<br>";
+  echo "Correct Answer: Info about anything around climbing.<br/><br/>";
 }
 else {
   echo "1. What is beta?<br/>";
@@ -22,28 +25,44 @@ else {
   echo "Correct Answer: Info about anything around climbing.<br/><br/>";
 }
 
-if ($answer2 == "A") { $totalCorrect++; }
+if ($answer2 == "A") { $totalCorrect++;
+  echo "2. Who is a pro rock climber?<br/>";
+  echo "You Answered Correctly.<br>";
+  echo "Correct Answer: Chris Sharma.<br/><br/>";
+}
 else {
   echo "2. Who is a pro rock climber?<br/>";
   echo "Your Answer: $answer2.<br/>";
   echo "Correct Answer: Chris Sharma<br/><br/>";
 }
 
-if ($answer3 == "C") { $totalCorrect++; }
+if ($answer3 == "C") { $totalCorrect++;
+echo "3. What is the standard rope length for a single pitch climb?<br/>";
+echo "You Answered Correctly.<br>";
+echo "Correct Answer: 60m.<br/><br/>";
+}
 else {
   echo "3. What is the standard rope length for a single pitch climb?<br/>";
   echo "Your Answer: $answer3.<br/>";
   echo "Correct Answer: 60m<br/><br/>";
 }
 
-if ($answer4 == "C") { $totalCorrect++; }
+if ($answer4 == "C") { $totalCorrect++;
+echo "4. What is the name of the climber who just free soloed El Capitan?<br>";
+echo "You Answered Correctly.<br>";
+echo "Correct Answer: Alex Honnold<br/><br/>";
+}
 else {
   echo "4. What is the name of the climber who just free soloed El Capitan?<br/>";
   echo "Your Answer: $answer4.<br/>";
   echo "Correct Answer: Alex Honnold <br/><br/>";
 }
 
-if ($answer5 == "D") { $totalCorrect++; }
+if ($answer5 == "D") { $totalCorrect++;
+echo "5. What tools could you use for ice climbing?<br/>";
+echo "You Answered Correctly.<br>";
+echo "Correct Answer: All the above.<br/><br/>";
+}
 else {
   echo "5. What tools could you use for ice climbing?<br/>";
   echo "Your Answer: $answer5.<br/>";
@@ -52,6 +71,6 @@ else {
 
 
 $percent = ($totalCorrect/5)*100;
-echo "You got $totalCorrect/5 correct."
-echo "<div id='results'>Your score: $percent </div>";
+echo "You got $totalCorrect/5 correct.";
+echo "<div id='results'>Your score: $percent% </div>";
 ?>

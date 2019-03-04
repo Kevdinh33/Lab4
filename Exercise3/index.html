@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>KD's Climbing Store</title>
+  </head>
+  <body>
+    <h1>KD's Climbing Store</h1>
+    <form class="webStore" onsubmit="return formChecker()" action="customerBackend.php" method="post">
+      <div class="userInfo">
+        E-mail:<br>
+        <input type = "text" name="email" id="userEmail" value="user@gmail.com"><br>
+        Password:<br>
+        <input type = "password" name="password" id="password"><br>
+        <br>
+      </div>
+      <p1>Choose from our list of high quality items.</p1>
+      <div class="item">
+        <table class="shop" border="1" width=100%>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          </tr>
+          <tr>
+            <td>Rope</td>
+            <td>$200</td>
+            <td><input type="number" name="ropeQuan" id="ropeQuan" min="0" value="0"</td>
+          </tr>
+          <tr>
+            <td>Climbing Shoes</td>
+            <td>$150</td>
+            <td><input type="number" name="shoeQuan" id="shoeQuan" min="0" value="0"</td>
+          </tr>
+          <tr>
+            <td>Quick Draws</td>
+            <td>$10</td>
+            <td><input type="number" name="drawQuan" id="drawQuan" min="0" value="0"</td>
+          </tr>
+        </table>
+      </div>
+      <br><br><br><br>
+
+
+      <h2>Choose a shipping option:</h2>
+      <div class="ship">
+        <input type="radio" name="shipOption" id="freeShip" value="Free"> Free 7 day<br>
+        <input type="radio" name="shipOption" id="expressShip" value="Express"> $50.00 Express Overnight<br>
+        <input type="radio" name="shipOption" id="3DayShip" value="3 Day"> $5.00 3-day Shipping <br>
+      </div>
+      <br>
+
+      <button type="submit" value="Submit">Submit</button>
+      <button type="reset" value="Reset" >Reset</button>
+
+
+    </form>
+    <script src="formChecker.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+body{
+ background-color: slategrey;
+}
+
+h1{
+  text-align: center;
+  font-style: bold;
+  font-size: 50;
+  color: greenyellow;
+}
+
+p1{
+  color: greenyellow;
+}
+
+h2{
+  text-align: center;
+  color: greenyellow;
+  font-size: 8;
+}
+
+
+.userInfo{
+  text-align: center;
+  font-size: 12;
+  color: white;
+}
+
+.shop{
+  border-color: black;
+  border-radius: 10px;
+}
+
+th{
+  color: white;
+  background-color: dimgray;
+}
+
+.ship{
+  background-color: white;
+  width: 30%;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+
+button{
+text-align: center;
+display: inline-block;
+background: linear-gradient(35deg, greenyellow 40%, yellow 90%);
+color: rgb(50, 50, 50);
+border-radius: 10px;
+padding: 10px;
+font-size: 20px;
+margin: auto;
+}
+
+.receipt{
+  border-color: black;
+  border-radius: 10px;
+}
